@@ -8,7 +8,6 @@
 
 			/**
 			 * It removes script tags from html and inserts it into DOM.
-			 * TODO move it out from function (upper than function returned)
 			 *
 			 * Testing:
 			 * html += '<script>alert(1234)</script><script type="text/javascript">alert(12345)</script><script type="asdf">alert(1234)</script><script src="/js/alert.js">alert(1234)</script><span style="color: red;">1234</span>';
